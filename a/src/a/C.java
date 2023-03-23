@@ -1,6 +1,5 @@
 package a;
 import java.util.Scanner;
-
 public class C {
 	public static void main(String[]arg) {
 		int num;
