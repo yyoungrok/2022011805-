@@ -2,8 +2,9 @@ package a;
 import java.util.Scanner;
 public class I {
 	public static void main(String[]arg) {
-		int n1, n2;
-	      String ch;
+		
+		  int n1, n2;
+	      String s1;
 	      
 	      Scanner scan = new Scanner(System.in);
 	      
@@ -13,9 +14,9 @@ public class I {
 	      
 	      
 	      System.out.printf("기호 입력: ");
-	      ch = scan.next();
+	      s1 = scan.next();
 	      
-	      switch(ch) {
+	      switch(s1) {
 	      case"+":
 	         System.out.println(n1 + "+" + n2 + "=" + (n1+n2));
 	         break;

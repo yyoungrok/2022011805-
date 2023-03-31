@@ -5,7 +5,7 @@ public class H {
 		  int time ;
 	      int d, h, m;
 	      int s=60;
-	      int d_s, h_s, m_s, s_s;
+	      int dd, hh, mm, ss;
 	      
 	      Scanner scan = new Scanner(System.in);
 	      
@@ -13,16 +13,16 @@ public class H {
 	      time = scan.nextInt();
 	   
 	      
-	      s_s = time % 60;
+	      ss = time % 60;
 	      m = time/s;
-	      s_s = time % s;
+	      ss = time % s;
 	      h = m / 60;
-	      m_s = m % 60;
+	      mm = m % 60;
 	      d = h / 24;
-	      h_s = h % 24;
-	      d_s = d % 30;
+	      hh = h % 24;
+	      dd = d % 30;
 	      
-	      System.out.println(time+"초: "+d+"일 "+h_s+"시 "+m_s+"분 "+s_s+"초");
+	      System.out.println(time+"초: "+d+"일 "+hh+"시 "+mm+"분 "+ss+"초");
 		
 	}
 
