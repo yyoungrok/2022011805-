@@ -19,13 +19,15 @@ public class M {
 		System.out.println(str1.indexOf("x"));
 		System.out.println(str1.indexOf("Ja"));*/
 		
-		ArrayList<String> list= new ArrayList<String>();
+		/*ArrayList<String> list= new ArrayList<String>();
 		list.add("Bread");
 		list.add("Butter");
 		list.add("Cheese");
 		list.add("Ham");
 		list.add("Ham");
-		System.out.println(list);
+		System.out.println(list);*/
+		
+		
 	}
 
 }

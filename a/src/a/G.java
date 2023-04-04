@@ -17,14 +17,14 @@ public class G {
 		for (int i=2; i<10;i++) {
 			if(i==5) {
 				System.out.print("\n");
-				break;
+				continue;
 			}
 			for (int j=1;j<10;j++) {
 				System.out.print(i+"*"+j + "=" + (i*j) + "\t");
 			}
 			System.out.print("\n");
 		}
-		int time ;
+		/*int time ;
 	      int d, h, m, s=60;
 	      int d_s,h_s,m_s,s_s;
 	      
@@ -43,6 +43,6 @@ public class G {
 	      h_s = h % 24;
 	      d_s = d % 30;
 	      
-	      System.out.println(time+"초는 "+d+"일 "+h_s+"시 "+m_s+"분 "+s_s+"초 입니다.");
+	      System.out.println(time+"초는 "+d+"일 "+h_s+"시 "+m_s+"분 "+s_s+"초 입니다.");*/
 	}
 }
