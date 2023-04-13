@@ -64,5 +64,6 @@ public class J {
 		int studentId = input.nextInt();
 		
 	}
+	
 
 }
