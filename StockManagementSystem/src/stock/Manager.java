@@ -9,7 +9,7 @@ public class Manager {
 	Manager(Scanner input){		
 	}
 	public void addStock() {
-		stock = new Stock();
+		Stock stock = new Stock();
 		System.out.print("Stock ID: ");
 		stock.id = input.nextInt();
 		
@@ -17,10 +17,10 @@ public class Manager {
 		stock.name = input.next();
 		
 		System.out.print("Today Sale: ");
-		stock.sale = input.next();
+		stock.sale = input.nextInt();
 		
 		System.out.print("Today input");
-		stock.stockinput = input.next();	
+		stock.stockinput = input.nextInt();	
 	}
 	public void deleteStock() {
 		System.out.print("Stock ID: ");
@@ -45,7 +45,7 @@ public class Manager {
 		System.out.print("Stock ID: ");
 		int stockId = input.nextInt();	
 		if(stock.id == stockId) {
-			stock.printInfo();
+			stock.PrintInfo();
 		}
 	}
 }
