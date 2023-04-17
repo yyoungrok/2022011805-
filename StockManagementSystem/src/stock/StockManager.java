@@ -5,10 +5,11 @@ import java.util.ArrayList;
 
 public class StockManager {
 	public static void main(String[]arg) {
+		
 		Scanner input = new Scanner(System.in);
 		Manager manager = new Manager(input);
-		int num = -1;
 		
+		int num = -1;
 		
 		while (num != 6) {
 			System.out.println("1. Add Stock");
@@ -17,7 +18,9 @@ public class StockManager {
 			System.out.println("4. Vidw Stock");
 			System.out.println("5. Exit");
 			System.out.println("Select one number between 1-6");
+			
 			num = input.nextInt();
+			
 			if (num==1) {
 				manager.addStock();
 			}
@@ -28,7 +31,7 @@ public class StockManager {
 				manager.editStock();
 			}
 			else if(num==4) {
-				manager.viewStock();
+				manager.viewStocks();
 			}
 			else {
 				continue;
